@@ -1,0 +1,44 @@
+input[type=text] {
+    width: 100%;
+    min-width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+form,
+li {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0;
+}
+
+input,
+li {
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.deleteButton {
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
